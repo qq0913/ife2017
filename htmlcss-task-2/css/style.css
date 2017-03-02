@@ -1,0 +1,227 @@
+#task_2
+{
+    background-color:#cccccc;
+}
+#navigation
+{
+    background: url("../picture/baidu.png") 60px no-repeat #404040;
+    /* height:5em;*/
+    width:100%;
+}
+#navigation ul
+{
+    list-style-type: none;/*去掉了列表前面的圆点*/
+    padding: 0;
+    margin: 0;
+    text-align:right;
+    position: relative;
+    top:-30px;
+}
+#navigation li
+{
+    display: inline-block;
+}
+#navigation a
+{
+    color:white;
+    padding: 5px;
+    font-family:sans-serif;
+    font-size: smaller;
+    text-decoration: none;
+}
+#navigation h1
+{
+    visibility:hidden ;
+}
+.artical,#picture_list,#sidebar
+{
+    border:2px solid dimgray;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px;
+    background-color: #fff;
+}
+.title,#pictures /*一级标题*/
+{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.subtitle
+ {
+    font-size: large;
+    font-weight: 600;
+    color: #888888;
+ }
+.author
+{
+    font-size:small;
+    color: #888888;
+}
+p.mainbody
+{
+    text-indent:2em ;
+    font-weight: 600;
+    line-height: 1.8em;
+
+}
+/*b
+{
+    font-weight: 900;
+}*/
+.artical ul
+{
+    list-style-type: none;
+    line-height: 1.8em;
+}
+.artical li
+{
+    font-weight: 600;
+}
+#picture_list ul
+{
+    list-style-type: none;
+}
+#picture_list li
+{
+    border:2px solid #cccccc;
+    margin:5px;
+    width:110px;
+    height:110px;
+    padding:10px;
+    margin: 15px;
+    text-align: center;
+}
+li img
+{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+.artical ol>li
+{
+    font-weight: 800;
+    margin:5px;
+}
+.artical ol>li:first-child
+{
+    font-size:medium;
+}
+.artical ol:nth-child(2)
+{
+    font-size:larger;
+}
+.artical ol:nth-child(3)
+{
+    font-size:xx-large;
+}
+/*表格样式设置*/
+.artical table
+{
+    width: 100%;
+    border-collapse:collapse ;
+    font-size: small;
+}
+.artical th,td
+{
+    border: 1px solid #999999;
+    font-size: smaller;
+    padding: 4px;
+}
+.artical .header
+{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.artical .footer
+{
+    background-color: #cccccc;
+    font-weight: bolder;
+}
+/*侧栏样式*/
+#sidebar .title
+{
+    border-left: 3px solid #999999;
+    padding: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+#sidebar .register_title
+{
+    display: none;
+}
+/*侧栏表单*/
+#sidebar form
+{
+    position: relative;
+    left:20%;
+
+}
+#sidebar form .user
+{
+    padding:10px;
+    font-size: small;
+}
+#sidebar form .tips
+{
+    padding-bottom:20px;
+    font-size: small;
+    color: #888888;
+    position: relative;
+    left: 9em;
+}
+#sidebar #user-key,[name="user-key"]
+{
+    position: relative;
+    left: 2em;
+}
+#user-sex,#user-city,#user-hobby
+{
+    padding: 5px;
+    position:relative;
+    left:4em;
+}
+#user-description
+ {
+     padding: 5px;
+     position:relative;
+     left:2.3em;
+    width: 100%;
+    height: 6em;
+ }
+#user-description textarea
+{
+    width: 60%;
+    height: 100%;
+}
+#user-description span
+{
+    vertical-align: top;
+    position:relative;
+    top:3px;
+}
+#sidebar [name="submit"]
+{
+    width: 100%;
+    padding:10px;
+    position:relative;
+    left:-20%;
+    margin-top: 15px;;
+    background-color: royalblue ;
+    border-radius: 10px;
+}
+/*版权声明 样式*/
+#copyright
+{
+    background-color:black ;
+    color: white;
+    height: 5em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#copyright p
+{
+    padding:30px;
+}
