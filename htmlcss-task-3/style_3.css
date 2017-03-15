@@ -1,0 +1,56 @@
+/*∏∫Õ‚±ﬂæ‡+Õ‚±ﬂæ‡*/
+html{
+    background-color: white;
+}
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    min-width: 600px;
+}
+.main,.left,.right,.content{padding: 20px;}
+.main,.left,.right{float: left;}
+.left,.right,.content{
+    background-color: white;
+    border: 1px solid #999;
+}
+.main{
+    width: 97%;
+    background-color: #eee;
+    min-height: 440px;
+    border: 1px solid #999;
+}
+.content{
+    margin: 0 140px 0 220px;
+}
+.left{
+    width: 160px;
+    margin-left: -97%;
+    position: relative;
+    top: 20px;
+    left: -20px;
+}
+.right{
+    width: 80px;
+    margin-left: -170px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.personallogo:nth-child(2),.personallogo:nth-child(3){
+    margin: 20px 0;
+}
+.teamlogo{
+    float: left;
+}
+.teamname{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
