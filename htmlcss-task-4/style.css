@@ -1,0 +1,27 @@
+/*分别用3个div定义3个图形，父节点：矩形rect，子节点：circ1 circ2*/
+.rect{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position:absolute; /*绝对定位，使得矩形左上角相对于浏览器居中*/
+    top:50%;
+    left: 50%;
+    margin-left: -200px; /*进一步调整负外边距，使得矩形居中*/
+    margin-top:-100px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    position: absolute;
+}
+.circ1{
+    border-radius: 0 0 50px 0; /*border-radius属性顺序，依次左上、右上、右下、左下*/
+    top:0;
+    left:0;
+}
+.circ2{
+    border-radius: 50px 0 0 0;
+    bottom:0;
+    right:0;
+}
